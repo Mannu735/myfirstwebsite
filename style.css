@@ -22,3 +22,35 @@ button {
   margin: 10px;
   cursor: pointer;
 }
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+}
